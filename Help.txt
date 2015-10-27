@@ -1,0 +1,13 @@
+# For Ubuntu users
+	# Run following commands in terminal first for downloading these libraries
+	sudo apt-get install python-pip
+	pip install python-PIL				# download Pillow library
+	pip install python-tkinter			# download Tkinter library
+	pip install python-numpy
+	sudo apt-get update
+	sudo apt-get dist-upgrade
+
+# For Windows users
+	# Run following commands in cmd first for downloading these libraries
+	open cmd using "Window button" + "r" and then type "cmd" without quotes and press "run"
+	now type these commands:
