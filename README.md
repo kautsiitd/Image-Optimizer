@@ -1,10 +1,16 @@
 # Introduction
 
+This project contains a GUI created using python Tkinter which helps in **Cropping, Resizing, Reducing Size of Images from individual image to Bulk Images Offline.** With the help of this repo you can also **Download or Upload Images to your S3 bucket in bulk in minimal time with just few clicks.**
+
+Brief description on individual window levels can be found in file **Description.pdf**.
 
 ## Installation
 
 
 ## How It Works
+
+
+## Customization
 
 
 ## Motivation
