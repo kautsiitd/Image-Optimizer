@@ -11,3 +11,9 @@
 	# Run following commands in cmd first for downloading these libraries
 	open cmd using "Window button" + "r" and then type "cmd" without quotes and press "run"
 	now type these commands:
+
+# For Mac users
+
+sudo easy_install pip
+sudo pip install pillow
+sudo pip install boto
