@@ -158,8 +158,8 @@ class io_window(Frame):
 		if dr != '':
 			text = str(dr)
 			self.e2.delete(0, 'end')
-			self.e2.insert(0, text)
-			gbl.output_dir = text
+			self.e2.insert(0, text + ["/",""][text[-1] == "/"])
+			gbl.output_dir = text + ["/",""][text[-1] == "/"]
 
     def readFile(self, filename):
         f = open(filename, "r")
