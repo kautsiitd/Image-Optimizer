@@ -21,9 +21,11 @@ Brief description on individual window levels can be found in file **Description
 That's it, after this IO window will pop up and you will also have different options at top for different functionality. You can follow **How It Works** section below to see how different sections can be accessed and corresponding flow charts.
 
 # How It Works
-
+Follow these steps and flow chart to see how this application works and what all features it has.
   ## Manual Image Optimizer
+
     ![alt tag](https://github.com/kautsiitd/Image-Optimizer/blob/master/Single_Image_FlowChart.png)
+
     After following installation section instructions, you should be able to run *python main.py*. After this a window will pop up named **IO_Window** where you can follow above flow chart or say following steps demonstrated in above flow chart:
     1. Select **Input Directory** by just clicking that button and choosing target folder.
 
