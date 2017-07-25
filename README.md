@@ -15,7 +15,8 @@ Brief description on individual window levels can be found in file **Description
   * numpy
   * boto
 
-  You can follow instruction in Help.txt to find out commands to install these on different platforms.
+  You can follow instruction in **Help.txt** to find out commands to install these on different platforms.
+
 3. After that you just need to cd to *Source Code* folder and run **python main.py**
 
 That's it, after this IO window will pop up and you will also have different options at top for different functionality. You can follow **How It Works** section below to see how different sections can be accessed and corresponding flow charts.
@@ -30,8 +31,10 @@ After following installation section instructions, you should be able to run *py
 1. Select **Input Directory** by just clicking that button and choosing target folder.
 
 **You can also choose one single file as input file** instead of whole directory from option **Open** at top and then select **Input File** option.
+
 2. Similarly you have to choose **Output Directory** where you want to save all files.
 **Note:** You can also choose **From Last** button if you want to continue from where you started.
+
 3. Click **Next** and **Crop Window** will open.
   * Here you can choose the size of image in Pixels for height and width separately which will show the cropped picture as highlighted Image(to maintain the ratio of height and width which is entered).
   * You can **Keep the aspect ratio** if you do not want to crop Image but want to reduce pixels for height and width. Obviously In this case, you can only edit height or width of picture because ratio needs to be maintained.
@@ -40,6 +43,7 @@ After following installation section instructions, you should be able to run *py
   * Using **Exit** you can exit from GUI any time, and **Don't worry because you can always start from where you left using From Last button in IO_Window at beginning.**
   * You can Click **Next** to go to next step, **Quality_Window**.
   * You can also go back to previous pic and update it using **Back** button.
+
 4. Click **Next** and **Quality_Window** will open.
   * Here you can choose format of Image in which you want to save Image. For now it can be only **JPEG** and **PNG**.
   * You can select Quality of Image either using slider or manually entering it in text box. **Quality of Image will only be effective if format in which you are saving image is JPEG**.
