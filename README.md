@@ -2,7 +2,7 @@
 
 This project contains a GUI created using python Tkinter which helps in **Cropping, Resizing, Reducing Size from individual image to Images in bulk Offline.** With the help of this repo you can also **Download or Upload Images to your S3 bucket in bulk in minimal time with just few clicks.** This repo also provides feature with the help of which **you can start your work from where you left last time**.
 
-Brief description on individual window levels can be found in file **Description.pdf**.
+Brief description on individual window levels can be found in file [Description.pdf](Description.pdf).
 
 # Installation
 
@@ -15,7 +15,7 @@ Brief description on individual window levels can be found in file **Description
   * numpy
   * boto
 
-  You can follow instruction in **Help.txt** to find out commands to install these on different platforms.
+  You can follow instruction in [Help.txt](Help.txt) to find out commands to install these on different platforms.
 
 3. After that you just need to cd to *Source Code* folder and run **python main.py**
 
@@ -26,7 +26,7 @@ Follow these steps and flow chart to see how this application works and what all
 
 ## Manual Image Optimizer
 
-![alt tag](https://github.com/kautsiitd/Image-Optimizer/blob/master/Readme%20Images/Single_Image_FlowChart.png)
+![alt tag](Readme%20Images/Single_Image_FlowChart.png)
 
 After following installation section instructions, you should be able to run *python main.py*. After this a window will pop up named **IO_Window** where you can follow above flow chart or say following steps demonstrated in above flow chart:
 1. Select **Input Directory** by just clicking that button and choosing target folder.
@@ -58,7 +58,7 @@ That's it, using following steps you can optimize single image or images in bulk
 
 ## Automatic Image Optimizer
 
-![alt tag](https://github.com/kautsiitd/Image-Optimizer/blob/master/Readme%20Images/BulkResizing_Image_FlowChart.png)
+![alt tag](Readme%20Images/BulkResizing_Image_FlowChart.png)
 
 Using this software you can also optimize, resize and crop Images in bulk. You just have to choose some parameters and in one click all images will be optimized and saved to destination folder. Here I am adding few steps, features and Importance of each variable to proceed:
 
@@ -104,9 +104,9 @@ After process is done, Restart Window will open saying that operations have comp
 
 You can also download and upload whole folders using this software in just few clicks.
 
-**NOTE: You will have to set AWS_KEY and AWS_SECRET in s3_window.py file to make this work.**
+**NOTE: You will have to set AWS_KEY and AWS_SECRET in** [s3_window.py](Source%20Code/s3_window.py) **file to make this work.**
 
-![alt tag](https://github.com/kautsiitd/Image-Optimizer/blob/master/Readme%20Images/Download_Upload_S3.png)
+![alt tag](Readme%20Images/Download_Upload_S3.png)
 
 You can follow above flow chart to see what and how you can do things here. You can also follow steps below for same:
 
@@ -127,4 +127,4 @@ Thats it, After selecting both input and output directory, You just have to clic
 
 # Need Help/Issues
 
-If you find some issue or require some help then you can report about it here: https://github.com/kautsiitd/Image-Optimizer/issues.
+If you find some issue or require some help then you can report about it in [Issues](https://github.com/kautsiitd/Image-Optimizer/issues).
