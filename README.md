@@ -126,3 +126,5 @@ Thats it, After selecting both input and output directory, You just have to clic
 * Total Number of files it has to Upload/Download.
 
 # Need Help/Issues
+
+If you find some issue or require some help then you can report about it here: https://github.com/kautsiitd/Image-Optimizer/issues.
