@@ -23,6 +23,7 @@ That's it, after this IO window will pop up and you will also have different opt
 
 # How It Works
 Follow these steps and flow chart to see how this application works and what all features it has.
+
 ## Manual Image Optimizer
 
 ![alt tag](https://github.com/kautsiitd/Image-Optimizer/blob/master/Readme%20Images/Single_Image_FlowChart.png)
@@ -55,6 +56,49 @@ After following installation section instructions, you should be able to run *py
 
 That's it, using following steps you can optimize single image or images in bulk by making informed decision about memory and Quality combination. Using From Last option you can always start from where you left last time.
 
+## Automatic Image Optimizer
+
+![alt tag](https://github.com/kautsiitd/Image-Optimizer/blob/master/Readme%20Images/BulkResizing_Image_FlowChart.png)
+
+Using this software you can also optimize, resize and crop Images in bulk. You just have to choose some parameters and in one click all images will be optimized and saved to destination folder. Here I am adding few steps, features and Importance of each variable to proceed:
+
+1. After Initiating software using python main.py, IO_Window opens up first.
+2. In top bar you can click **Other** and then select **Size Reducer** to open **Image Compression Window**.
+3. Here are few fields for various variables that you have to fill to optimize Images accordingly:
+  * **Input Directory:** Folder where all Images are stored.
+
+  **Note:** It will consider Images having extension among these -> JPG, JPEG, PNG, psd, tif, tiff.
+
+  * **Output Directory:** Folder where you want to save all optimized images in same hierarchy and name as it is in Input Directory.
+  * **Min/Max Memory:** Memory under which you want to be all you Images.
+
+  **Note:** Memory parameter will be compromised if Image with lowest Quality having memory space above than Max Memory limit.
+
+  * **Min/Max Quality:** Range in which quality of Image will vary if optimized image at certain quality does not lie under memory limit. If memory of optimized image lie in memory range then it will try to increase quality till Max limit until memory space goes out of bound.
+
+  * **Base Quality:** It will be the starting point of quality of Image from where It will move towards min or max limit to make sure that optimized Image will lie in memory range with best quality possible.
+
+  **Note:** Quality variables would not be effective if format of optimized Image is set to be **other than JPEG.**
+
+  * **Format:** Right now this software is only supporting **JPEG and PNG** for optimized images. Obviously image size for JPEG will be less.
+
+  * **Resolution:** If you want to resize all Images, you can set width and height separately in terms of *pixels*. If you do not want to crop Images but still want to resize it to certain pixels in one direction then you can also fill **A/c h** or **A/c w** in one of the fields accordingly.
+
+  **Note:** Image will be center cropped.
+
+  * **Optimize, Center Crop, Encode:** These variables are not working right now as it is not coded yet. So I will suggest to tick all of the options always.
+
+  * **Default:** This will just fill up some best basic parameters in all fields. But it is not necessary that it will result in best optimized Images, You can choose above variables according to your need.
+
+4. Click **Compress**, and all optimized images will be saved in destination folder with same hierarchy and names as it was in Input Directory.
+
+Thats it, You can follow progress of image optimization process in terminal. Saying:
+* Current image it compressing.
+* How many it have already compressed.
+* Total number of Images in folder that it is going to compress.
+* Size and quality of images that it already has compressed.
+
+After process is done, Restart Window will open saying that operations have completed on all Images in Input Folder.
 
 # Customization
 
