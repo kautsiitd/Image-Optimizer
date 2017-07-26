@@ -1,19 +1,35 @@
 # For Ubuntu users
 	# Run following commands in terminal first for downloading these libraries
-	sudo apt-get install python-pip
-	pip install python-PIL				# download Pillow library
-	pip install python-tkinter			# download Tkinter library
-	pip install python-numpy
-	sudo apt-get update
-	sudo apt-get dist-upgrade
-
-# For Windows users
-	# Run following commands in cmd first for downloading these libraries
-	open cmd using "Window button" + "r" and then type "cmd" without quotes and press "run"
-	now type these commands:
+		python(>=2.7.10) should already be there, If not then download it first.
+		sudo apt-get install python-pip
+		pip install python-PIL				# download Pillow library
+		pip install python-tkinter			# download Tkinter library
+		pip install python-numpy
+		pip install python-boto
+		sudo apt-get update
+		sudo apt-get dist-upgrade
 
 # For Mac users
+	# Run following commands in terminal first for downloading these libraries
+		python(>=2.7.10) should already be there, If not then download it first.
+		sudo easy_install pip
+		sudo pip install pillow
+		sudo pip install boto
 
-sudo easy_install pip
-sudo pip install pillow
-sudo pip install boto
+# For Windows users
+	open cmd using "Window button" + "r" and then type "cmd" without quotes and press "run"
+	# Run following commands in cmd first for downloading these libraries
+		1. Install python
+			* Goto https://www.python.org/downloads/release/python-2713/
+			* You can select "Windows x86 MSI installer" or "Windows x86-64 MSI installer" according to your computer as mentioned in description.
+		2. Pip should already be there with python>2.7.8, else It can be downloaded using:
+			* Save file at "https://bootstrap.pypa.io/get-pip.py" as "get-pip.py", on Desktop
+			* Now in terminal, go to desktop, and run "python get-pip.py"
+		3. For Tkinter, You can follow instruction here "https://stackoverflow.com/questions/20044559/how-to-pip-or-easy-install-tkinter"
+		4. For Pillow you can follow instruction here "https://wp.stolaf.edu/it/installing-pil-pillow-cimage-on-windows-and-mac/"
+		5. For boto you can follow instruction here "https://stackoverflow.com/questions/14351373/how-can-i-install-boto-library-on-windows-for-python"
+
+NOTE: I know it will be very frustrating to download all these libraries in Windows from scratch and there is no surety even after that.
+I have setup this software on all these platforms and It worked wonderfully, But I could not remember all steps about how I set it up in windows,
+I will try to add more precise Instruction for Windows too later.
+If you have set it up successfully on Windows that I will request to create a Pull Request for same stepwise.
