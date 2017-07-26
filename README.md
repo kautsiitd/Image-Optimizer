@@ -92,7 +92,7 @@ Using this software you can also optimize, resize and crop Images in bulk. You j
 
 4. Click **Compress**, and all optimized images will be saved in destination folder with same hierarchy and names as it was in Input Directory.
 
-Thats it, You can follow progress of image optimization process in terminal. Saying:
+Thats it, You can follow progress of image optimization process in terminal, saying:
 * Current image it is compressing.
 * How many it has already compressed.
 * Total number of Images in folder that it is going to compress.
@@ -100,10 +100,29 @@ Thats it, You can follow progress of image optimization process in terminal. Say
 
 After process is done, Restart Window will open saying that operations have completed on all Images in Input Folder.
 
-# Customization
+## Downloading and Uploading Files/Folders to S3
 
+You can also download and upload whole folders using this software in just few clicks.
 
-# Motivation
+**NOTE: You will have to set AWS_KEY and AWS_SECRET in s3_window.py file to make this work.**
 
+![alt tag](https://github.com/kautsiitd/Image-Optimizer/blob/master/Readme%20Images/Download_Upload_S3.png)
+
+You can follow above flow chart to see what and how you can do things here. You can also follow steps below for same:
+
+1. After Initiating software using python main.py, IO_Window opens up first.
+2. In top bar you can click **S3_Bucket** and then select **Upload/Download** to open **Upload_Window/Download_Window**.
+3. Now you have to select **From** and **To** directory by clicking just clicking on corresponding buttons.
+  * If you are **Downloading** from S3, then From text field will contain path of folder on S3 which you wish to download, and TO text field will contain path of folder where you want to download your files on your local machine. You can either manually enter these paths or can select folder by clicking on *From* and *To* buttons
+  * If you are **Uploading** to S3, then From text field will contain path of folder on local machine which you want to upload on S3 and To text field will contain path of folder on S3 where you want to upload this folder. You can either manually enter these paths or can select folder by clicking on *From* and *To* buttons
+
+  **NOTE: I will suggest to enter S3 related Paths manually because It will may take too much to fetch all names in folder to show you what is there in a folder on S3.** ***This will happen because paging is not yet implemented in software.***
+
+  **NOTE:** Format for folder path in S3 would be like this, *S3://folder1/folder2....*, where S3:// is just representing home address.
+
+Thats it, After selecting both input and output directory, You just have to click Download/Upload button to perform execution and **It will Upload/Download files in same hierarchy as it is in original folder**. You can follow progress of Downloading/Uploading in terminal, saying:
+
+* Current file name and number it is Uploading/Downloading.
+* Total Number of files it has to Upload/Download.
 
 # Need Help/Issues
