@@ -93,8 +93,8 @@ Using this software you can also optimize, resize and crop Images in bulk. You j
 4. Click **Compress**, and all optimized images will be saved in destination folder with same hierarchy and names as it was in Input Directory.
 
 Thats it, You can follow progress of image optimization process in terminal. Saying:
-* Current image it compressing.
-* How many it have already compressed.
+* Current image it is compressing.
+* How many it has already compressed.
 * Total number of Images in folder that it is going to compress.
 * Size and quality of images that it already has compressed.
 
